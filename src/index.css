@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #050505;
+  --color-accent: #D946EF;
+  --color-cyan: #22D3EE;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  --background-image-atmosphere: radial-gradient(circle at 50% 50%, #1e0533 0%, transparent 70%), 
+                                radial-gradient(circle at 90% 10%, #0c2025 0%, transparent 40%);
+  
+  --background-image-orb: radial-gradient(circle at 30% 30%, var(--color-accent), transparent), 
+                          radial-gradient(circle at 70% 70%, var(--color-cyan), transparent);
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-white font-sans;
+  }
+}

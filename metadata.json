@@ -1,0 +1,8 @@
+{
+  "name": "Pratiksha AI Assistant",
+  "description": "A real-time, voice-to-voice AI assistant with a witty and sassy personality, powered by Gemini Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": []
+}
